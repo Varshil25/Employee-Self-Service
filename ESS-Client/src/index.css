@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.react-calendar
+  .react-calendar__viewContainer
+  .react-calendar__month-view
+  div
+  div
+  .react-calendar__month-view__days
+  button.holiday {
+  background-color: red !important;
+  color: black !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #888;
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #000;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.css-kotfqe-MuiButtonBase-root-MuiButton-root-MuiLoadingButton-root.Mui-disabled {
+  color: rgb(255, 0, 0);
+  box-shadow: none;
+  background-color: rgb(0, 0, 0);
+}
